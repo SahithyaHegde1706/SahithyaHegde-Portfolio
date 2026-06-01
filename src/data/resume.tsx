@@ -11,7 +11,7 @@ import { skills, skillsDetailed } from "./skills";
 export const DATA = {
   name: "Sahithya Hegde",
   initials: "SH",
-  url: "https://sahithya-hegde-portfolio.vercel.app",
+  url: "https://sahithyahegde.vercel.app/",
   description:
     "Computer Engineering Student and Full Stack Developer passionate about building modern web experiences, exploring UI/UX design, and solving real-world problems through technology.",
   summary:

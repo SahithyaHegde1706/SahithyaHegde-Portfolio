@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { DATA } from "@/data/resume";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = DATA.url || "https://sahithya-hegde-portfolio.vercel.app";
+  const baseUrl = DATA.url || "https://sahithyahegde.vercel.app/";
 
   return [
     {
