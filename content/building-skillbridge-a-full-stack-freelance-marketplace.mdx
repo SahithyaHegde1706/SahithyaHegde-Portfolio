@@ -1,0 +1,115 @@
+---
+title: "Building SkillBridge: A Full Stack Freelance Marketplace"
+publishedAt: "2026-05-25"
+updatedAt: "2026-05-25"
+author: "Sahithya Hegde"
+summary: "A behind-the-scenes look at building SkillBridge, including project architecture, authentication, database design, dashboards, development challenges, and key lessons learned."
+image: "/blogs/skillbridge-case-study.png"
+---
+
+# Building SkillBridge: A Full Stack Freelance Marketplace
+
+SkillBridge was one of the projects that pushed me to think beyond isolated features and toward building a complete product experience. The idea was to create a full stack freelance marketplace where clients and freelancers could interact through service listings, orders, dashboards, and account-based workflows.
+
+Instead of treating the project as a simple CRUD application, I approached it as a product with multiple user journeys. That decision shaped almost every technical and design choice I made.
+
+## Project vision
+
+The goal of SkillBridge was to simulate the core experience of a freelance platform in a cleaner, portfolio-ready form. I wanted the application to support discovery, trust, communication, and workflow management across different user roles.
+
+That meant designing flows for:
+
+- Browsing and searching gigs
+- Freelancer profile and gig creation
+- Client order placement
+- Review and rating systems
+- Role-aware dashboards
+- Admin-level monitoring
+
+This project became a strong exercise in building a connected system instead of a collection of unrelated pages.
+
+## Architecture and stack decisions
+
+SkillBridge was built using the MERN stack with React.js on the frontend and Node.js, Express.js, and MongoDB on the backend. I used Vite for the frontend environment and Mongoose for modeling database relationships.
+
+The architecture was intentionally split into clear layers:
+
+- Frontend for UI, routing, and user interaction
+- Backend for API handling and business logic
+- Database for users, gigs, orders, reviews, and related entities
+
+This separation helped me reason about the product more effectively. It made it easier to debug features, extend the application, and understand which part of the system was responsible for each workflow.
+
+## Authentication and protected flows
+
+Authentication was one of the most important parts of the project because marketplace platforms rely heavily on identity, permissions, and role-specific access.
+
+I implemented JWT-based authentication so users could securely log in and access protected parts of the application. Password hashing and token-based session handling were important pieces of this flow, but the real challenge was integrating authentication into the product experience cleanly.
+
+I had to think through questions like:
+
+- Which routes should be public?
+- Which actions should only be available to logged-in users?
+- How should different roles experience the platform?
+- What should happen when authentication state changes?
+
+This helped me understand that authentication is not only a backend concern. It directly affects navigation, dashboards, permissions, and user trust.
+
+## Database design and relationships
+
+Database design was another major learning area in SkillBridge. A freelance marketplace depends on multiple connected entities, so the structure of the database matters a lot.
+
+I needed to think about how users, gigs, orders, and reviews would relate to each other in a way that stayed practical and scalable. That meant planning data models carefully rather than adding fields without structure.
+
+Some of the key design considerations included:
+
+- Linking gigs to freelancers
+- Linking orders to both clients and service providers
+- Supporting dashboard metrics from stored data
+- Making sure reviews connected meaningfully to completed interactions
+
+This process strengthened my understanding of schema design, data relationships, and the importance of planning models early in a project.
+
+## Dashboard-driven product thinking
+
+One of the most valuable aspects of SkillBridge was building role-aware dashboards. Dashboards made the project feel more like a product because they turned raw data into usable workflows.
+
+Freelancers needed visibility into their gigs, orders, and earnings. Clients needed access to placed orders and relevant service information. Admin flows required broader monitoring and management capabilities.
+
+Designing these dashboards taught me how important structure and clarity are in data-heavy interfaces. A dashboard is not useful just because it contains information. It needs to make actions obvious and reduce friction for the person using it.
+
+## Development challenges
+
+SkillBridge came with several development challenges that made the project especially valuable.
+
+One challenge was maintaining consistency across multiple user roles and workflows. When different users interact with the same system in different ways, it becomes easy for the codebase or the interface to feel fragmented.
+
+Another challenge was managing feature breadth. Marketplace platforms naturally involve many moving pieces, and it was important to keep the scope realistic while still making the application feel complete.
+
+I also had to work through:
+
+- Route protection and session logic
+- API integration between frontend and backend
+- Data modeling for connected workflows
+- UI clarity across complex screens
+- Responsiveness across different device sizes
+
+Each challenge improved not just my coding ability, but also my judgment around project scope and execution.
+
+## Key lessons from SkillBridge
+
+Building SkillBridge taught me that strong full stack projects are not only about having many features. They are about how well the features connect into a coherent experience.
+
+Some of the biggest lessons I took away were:
+
+- Plan user roles early
+- Keep database relationships clear
+- Treat authentication as part of the product experience
+- Build with workflows in mind, not only pages
+- Balance ambition with practical execution
+
+## Why this project mattered
+
+SkillBridge became one of the most meaningful projects in my portfolio because it combined technical depth with product thinking. It helped me build confidence in handling multi-role systems, scalable application structure, and end-to-end marketplace workflows.
+
+More importantly, it showed me how much I enjoy building products that feel real. SkillBridge was not just an exercise in using the MERN stack. It was a project that helped me grow in architecture, planning, design thinking, and implementation all at once.
