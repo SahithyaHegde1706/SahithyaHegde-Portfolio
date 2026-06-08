@@ -2,7 +2,7 @@ import type { ProjectCaseStudy } from "./project-case-study-page";
 
 export const projectCaseStudies = {
   skillbridge: {
-    imageSrc: "/projects/skillbridge/thumbnail.png",
+    imageSrc: "/projects/skillbridge/thumbnail.webp",
     imageAlt: "SkillBridge Project Screenshot",
     category: "Full Stack MERN Application",
     inspiredBy: "Fiverr, Upwork, Freelancer.com",
@@ -56,7 +56,7 @@ export const projectCaseStudies = {
     ],
   },
   signly: {
-    imageSrc: "/projects/signly/thumbnail.png",
+    imageSrc: "/projects/signly/thumbnail.webp",
     imageAlt: "Signly Project Screenshot",
     category: "Full Stack MERN Application",
     inspiredBy: "DocuSign, Adobe Sign",
@@ -107,7 +107,7 @@ export const projectCaseStudies = {
     ],
   },
   cloudnest: {
-    imageSrc: "/projects/cloudnest/thumbnail.png",
+    imageSrc: "/projects/cloudnest/thumbnail.webp",
     imageAlt: "CloudNest Project Screenshot",
     category: "Full Stack Web Application",
     inspiredBy: "Google Drive",
@@ -157,7 +157,7 @@ export const projectCaseStudies = {
     ],
   },
   trackflow: {
-    imageSrc: "/projects/trackflow/thumbnail.png",
+    imageSrc: "/projects/trackflow/thumbnail.webp",
     imageAlt: "TrackFlow Project Screenshot",
     category: "Full Stack SaaS Application",
     inspiredBy: "Jira, Linear, Trello",

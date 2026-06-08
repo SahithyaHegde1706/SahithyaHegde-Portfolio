@@ -41,7 +41,7 @@ export const achievementDetails = [
     date: "15 September 2025",
     summary:
       "Secured 5th Rank in Code Clash, demonstrating problem-solving skills in a competitive environment.",
-    certificateImage: "/achievements/code-clash.png",
+    certificateImage: "/achievements/code-clash.webp",
     certificateAlt: "Code Clash certificate",
     storySections: [
       {
@@ -130,7 +130,7 @@ export const achievementDetails = [
     date: "6 March 2026",
     summary:
       "Participated in HackHive 2.0, a team-based hackathon where we designed YojanaSathi to improve accessibility to government welfare schemes.",
-    certificateImage: "/achievements/hackhive.png",
+    certificateImage: "/achievements/hackhive.webp",
     certificateAlt: "HackHive 2.0 certificate",
     storySections: [
       {
@@ -223,7 +223,7 @@ export const achievementDetails = [
     date: "7-8 February 2026",
     summary:
       "Participated in Hack With Mumbai 2.0, where our team built City Shield, a smart civic issue reporting system for citizens and municipal authorities.",
-    certificateImage: "/achievements/hack-with-mumbai.png",
+    certificateImage: "/achievements/hack-with-mumbai.webp",
     certificateAlt: "Hack With Mumbai 2.0 certificate",
     storySections: [
       {
@@ -304,7 +304,7 @@ export const achievementDetails = [
     date: "28 March 2025",
     summary:
       "BV Hacks 1.0 was my first-ever hackathon experience and a major milestone in my journey as a developer.",
-    certificateImage: "/achievements/bv-hacks.png",
+    certificateImage: "/achievements/bv-hacks.webp",
     certificateAlt: "BV Hacks 1.0 certificate",
     storySections: [
       {
@@ -465,7 +465,7 @@ export const achievementDetails = [
     date: "9-10 January 2026",
     summary:
       "Participated in Simverse Hackathon, a fast-paced innovation challenge focused on rapid development, teamwork, and turning validated ideas into working solutions.",
-    certificateImage: "/achievements/simverse-hackathon.png",
+    certificateImage: "/achievements/simverse-hackathon.webp",
     certificateAlt: "Simverse Hackathon certificate",
     storySections: [
       {

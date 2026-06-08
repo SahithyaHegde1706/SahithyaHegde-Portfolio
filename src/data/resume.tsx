@@ -126,7 +126,7 @@ export const DATA = {
           icon: <ArrowRight className="size-3" />,
         },
       ],
-      image: "/projects/skillbridge/thumbnail.png",
+      image: "/projects/skillbridge/thumbnail.webp",
       video: "/projects/skillbridge/demo.mp4",
     },
     {
@@ -158,7 +158,7 @@ export const DATA = {
           icon: <ArrowRight className="size-3" />,
         },
       ],
-      image: "/projects/signly/thumbnail.png",
+      image: "/projects/signly/thumbnail.webp",
       video: "/projects/signly/demo.mp4",
     },
     {
@@ -190,7 +190,7 @@ export const DATA = {
           icon: <ArrowRight className="size-3" />,
         },
       ],
-      image: "/projects/cloudnest/thumbnail.png",
+      image: "/projects/cloudnest/thumbnail.webp",
       video: "/projects/cloudnest/demo.mp4",
     },
     {
@@ -222,7 +222,7 @@ export const DATA = {
           icon: <ArrowRight className="size-3" />,
         },
       ],
-      image: "/projects/trackflow/thumbnail.png",
+      image: "/projects/trackflow/thumbnail.webp",
       video: "/projects/trackflow/demo.mp4",
     },
   ],
